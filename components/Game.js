@@ -33,7 +33,7 @@ export default class Game extends React.Component {
   render () {
     return (
       <div>
-      <Board class="board" board={this.state.board} />
+      <Board class="board" board={this.state.board}  onClick={this.handleClick} />
       </div>
     );
   }
