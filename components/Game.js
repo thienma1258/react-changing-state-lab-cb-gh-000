@@ -11,7 +11,7 @@ export default class Game extends React.Component {
         null, null, null,
         null, null, null,
         null, null, null
-      ];
+      ]
     };
 
     this.handleReset = this.handleReset.bind(this);
